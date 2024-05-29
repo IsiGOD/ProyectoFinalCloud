@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #ffffff; /* Color de fondo opcional */
+    padding: 0px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+}
+
+h1 {
+    color: #333;
+    margin: 0;
+}
+
+#logo {
+    width: 100px; /* Ajusta el tamaño según tu imagen */
+    height: auto;
+    margin-left: auto; /* Mueve la imagen hacia la derecha */
+    margin-right: 10px; /* Espacio entre el título y la imagen */
+}
+
+.container {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"] {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: calc(100% - 20px);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+pre {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+    border: 1px solid #ccc;
+}
+
+.container:nth-child(odd) {
+    background-color: #f8f9fa;
+}
